@@ -140,6 +140,9 @@ nav ul li a:hover {
   gap: 20px;
 }
 
+.service-content {
+  text-align: center;
+}
 
 .service-item-title {
   letter-spacing: .2em;
