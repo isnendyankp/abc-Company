@@ -105,7 +105,7 @@ nav ul li a:hover {
  * #SERVICE
 \*-----------------------------------*/
 
-.service { padding-block: 45px; }
+.service { padding-block: 60px; }
 
 .service h2 {
   letter-spacing: .2em;
@@ -121,14 +121,8 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.service p {
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  font-size: 15px;
-  color: var(--eerie-black);
-  text-align: center;
-}
 
+/* Service list  */
 .service-list {
   display: flex;
   flex-wrap: wrap;
@@ -146,13 +140,6 @@ nav ul li a:hover {
   gap: 20px;
 }
 
-.service-item-icon { width: 60px;}
-
-.service-item-icon img { margin-inline: auto; fill: blue;}
-
-.fa-2xl {
-  font-size: 2.5em !important;
-}
 
 .service-item-title {
   letter-spacing: .2em;
