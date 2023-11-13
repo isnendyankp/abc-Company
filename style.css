@@ -208,7 +208,7 @@ nav ul li a:hover {
 
 /* Apply transformation on hover */
 .cat-photos .grid-container img:hover {
-  transform: scale(1.1);
+  transform: scale(1.029);
 }
 
 /* cat videos */
@@ -337,6 +337,17 @@ button[type='submit'] {
 .myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
+/* Footer */
+footer {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 
 /* Media Query */
 
