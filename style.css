@@ -105,7 +105,9 @@ nav ul li a:hover {
  * #SERVICE
 \*-----------------------------------*/
 
-.service { padding-block: 60px; }
+.service { 
+  padding-block: 60px; 
+}
 
 .service h2 {
   letter-spacing: .2em;
@@ -263,6 +265,46 @@ ul.boxCat {
   color: #333;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   padding: 0px 30px 0px 30px;
+}
+
+/*  Testimonial */
+.testimonial {
+  padding-block: 60px; 
+}
+
+.testimonial-title {
+  text-align: center;
+  font-size: 50px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.testimonial-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.testimonial-item {
+  max-width: 235px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonial-content {
+  text-align: center; 
+}
+
+.testimonial-img {
+  width: 100%;
+  align-items: center;
 }
 
 /* Form */
