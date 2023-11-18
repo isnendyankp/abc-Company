@@ -1,77 +1,165 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/_e9whi2b)
+
 <!-- Heading -->
-# Cat Fansclub
+# ABC Company
 
 <!-- Description -->
 ## Description
 
-> This is an assignment for week 1-4 at modul 1 test RevoU. The task is creating a simple website with form.
+> This is an assignment  milestone 1 test for week 5 at modul 1 RevoU. The task is creating a simple company website.
 
 <!-- Link Deploy -->
 
-> Link Deploy: https://isnendyankp.site/
+## Link Deploy
+
+> Link Deploy Netlify: https://abc-company.netlify.app/
+
+> Link Deploy Niagahoster with subdomain: https://abc-company.isnendyankp.site/
 
 <!-- Deliverables  -->
 ## Deliverables
 
 > Basic HTML, CSS, and Javascript
 
-<!-- Task week 1 -->
-## Task List week 1
+<!-- Task -->
 
-This task consists of:
+<!-- Skill Set -->
 
-1. implement basic css  to style website.
+## Skill Set
 
-2. Add simple javascript to make the website interactive.
+### Semantics HTML:
 
-3. Create a functional form on your website that includes input types (text, textarea), a submit button, and at least one of the following: radio buttons, checkboxes, or a select dropdown.
+1. Use appropriate HTML tags to structure the content of the company profile page.
+2. Use heading tags (h1, h2, etc.) to represent the hierarchy of headings.
+3. Use paragraph tags (p) for textual content.
+4. Use lists (ul, ol) for ordered or unordered information.
+5. Use semantic tags such as header, nav, main, section, article, and footer to provide meaningful structure to the page.
+6. Use appropriate tags for images, links, and other media elements.
 
-4. Style your form to align with your website's design.
+### Responsive Design:
 
-<!-- Task Week 2 -->
-## Task List week 2
+1. Implement CSS media queries to make the company profile page responsive across different screen devices.
+2. Ensure that the layout adapts smoothly to different screen sizes and orientations.
+3. Use relative units (such as percentages or ems) for sizing elements to maintain a consistent layout across devices.
+4. Adjust typography and font sizes to ensure readability on various screen sizes.
+5. Optimize images and other media for different resolutions and device capabilities.
+6. Do not use any CSS external librarie.
 
-This task consists of:
+### Deployment:
+1. Publish the company profile page to a custom domain.
+2. Set up and configure a live server or hosting platform for the website deployment.
+3. Register a custom domain name and link it to the deployed website.
+4. Ensure that the website is accessible and functional on the custom domain.
 
-1. Building a web page and try to use correct semantics for each element.
+### Documentation:
+1. Create a readme file that provides clear instructions on how to set up and run the project.
+2. Include screenshots of the different stages of development, showcasing the process of building the page.
+3. Clearly explain any dependencies or external libraries used in the project.
+4. Document any specific design choices or considerations made during the development process.
 
-2. Applying a Responsive Design with media query
+<!-- How to run this project -->
 
-3. Creating a form set that includes input type text, textarea, submit button, and one of the radio buttons, checkboxes, or select.
+## How to run this project
 
-4. Centering elements using flex.
+1. Clone this repository with click code then choose ssh or https.
 
-5. Creating a Sticky Navigation Bar.
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Deployment Prosess\Setup Project1.png" alt="How to run this project">
 
-<!-- Task Week 3 -->
+2. Righ click on selected folder, then open git hub bash here.
 
-## Task List week 3
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Deployment Prosess\Setup Project2.png" alt="How to run this project">
 
-This task consists of:
+3. Then type git clone and paste the link that you copied before.
 
-1. Applying custom font using @font-face.
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Deployment Prosess\Setup Project3.png" alt="How to run this project">
 
-2. Applying text shadow to the text and list-style to the list.
+4. Open the folder with your code editor then click open live server.
 
-3. Applying 1 responsive background image.(using contain or cover)
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Deployment Prosess\Setup Project4.png" alt="How to run this project">
 
-4. Applying 1 responsive background image with picture + source +srcset method.
+5. You can looks this project with live server with your browser.
 
-5. Creating 1 Asymmetrical Grid Layout.
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Deployment Prosess\Setup Project5.png" alt="How to run this project">
 
-6. Using at least one advanced form element (date, color, local date, range picker).
+<!-- Process of building the page -->
 
-7. Creating simple animation using with two methods: animation and transasition.
+## Process of building the page
 
-## Task List week 4
+1. Header: This section represents a common pattern for a responsive navigation header, where a hamburger menu is displayed for mobile views and a full navigation list is displayed for desktop views.
 
-This task consists of:
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Process of building the page\Header-navbar.png" alt="header-navbar">
 
-1. Deployment Process.
+2. Home website: This section represents a common pattern for a responsive home website, where a image is displayed for desktop views and a full text is displayed for mobile views. and this section im using transition for hover effect for the text.
 
-2. Connect to domain and DNS.
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Process of building the page\Home website.png" alt="home-website">
 
-3. Documenting Deployment Process.
+3. About us: this section represents the "about" section of a webpage for a company, including a title, a detailed description, and a "Read More" button. In this section I also create a media query by changing the font-size & text-align accordingly width the screen size.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Process of building the page\About-us.png" alt="about-us">
+
+4. Our services: In this section I create content about company products which consist of web app development, mobile app development, & digital marketing.this section also using icon from flaticon.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Process of building the page\Our Services.png" alt="our-services">
+
+5. Gallery foto: In this section I create a gallery of company photos which consist of 5 photos. In this section I also create a media query by changing grid template columns accordingly width the screen size. then this section i also using srcset for responsive image for different img when changing screen size.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Process of building the page\Galery foto.png" alt="gallery-foto">
+
+6. Company video: In this section I create a video about company profile. and this code represents the "video" section of a webpage, which includes a title and an embedded video player.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Process of building the page\Company-Video.png" alt="company-video">
+
+7. why choose us: In this section I create content about why choose us which consist of 4 reason.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Process of building the page\why us.png" alt="why-choose-us">
+
+8. Testimonial: In this section I create content about testimonial which consist of 3 testimonial. In this section I also create a media query by changing grid template columns accordingly width the screen size.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Process of building the page\Testimonial.png" alt="testimonial">
+
+9. Contact Form: In this section I create a contact form which consist of name, email, phone, & message. In this section I also add additional information about ask the client's IT experience, what a service client want & add a button upload file.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Process of building the page\Contact Form.png" alt="contact-form">
+
+10. Button back to top: In this section I create a button back to top which consist of text button icon.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Process of building the page\back to top.png" alt="button-back-to-top">
+
+
+11. Footer: And the last section I create a footer which consist of company address, company phone, company email.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Process of building the page\Footer.png" alt="footer">
+
+
+
+<!-- Icon -->
+## Flaticon
+
+### What is flaticon
+Flaticon is a large database of free vector icons. It offers users high quality graphic designs that are easily converted into a functional image, available in PNG, SVG, EPS, PSD, and BASE 64 formats. Flaticon allows users the ability to download icons in ranges of sizes and colors to best suit their individual needs.
+
+In this project i use icon from [flaticon](https://www.flaticon.com/).
+
+### How to use icon from flaticon
+
+1. Open [flaticon](https://www.flaticon.com/), then search icon that you want.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Deployment Prosess\Flaticon-1.png" alt="flaticon">
+
+2. Choose icon that you want.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Deployment Prosess\Flaticon-2.png" alt="flaticon">
+
+3. Click type download icon.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Deployment Prosess\Flaticon-3.png" alt="flaticon">
+
+4. Click download icon.
+
+<img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Deployment Prosess\Flaticon-4.png" alt="flaticon">
+
+5. After download icon, you can using as a img for product or etc.
+
 
 
 <!-- Github -->
@@ -138,7 +226,7 @@ Netlify is a cloud-based platform that helps developers build, deploy, and manag
 
 <img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Deployment Prosess\DNetlify 5.png" alt="Deploy Netlify">
 
-5. Choose repository project(module-2-isnendyankp).
+5. Choose repository project(milestone-1-isnendyankp).
 
 <img style="padding-bottom: 2%; padding-top: 3%;" width="100%" src="Deployment Prosess\DNetlify 6.png" alt="Deploy Netlify">
 
